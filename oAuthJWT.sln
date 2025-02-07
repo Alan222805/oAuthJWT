@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oAuthJWT", "oAuthJWT.csproj", "{CE52A215-D917-8565-F640-82DE18983C5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE52A215-D917-8565-F640-82DE18983C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE52A215-D917-8565-F640-82DE18983C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE52A215-D917-8565-F640-82DE18983C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE52A215-D917-8565-F640-82DE18983C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CC5CA83-F38F-4C06-8EB5-BF677A0B1D3C}
+	EndGlobalSection
+EndGlobal

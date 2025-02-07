@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BiXCuhOcP/5PAImjratTiabboP+Vx2rJQqGso6z4X5g=",
+  "Source": "oAuthJWT",
+  "BasePath": "_content/oAuthJWT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
