@@ -21,7 +21,7 @@ namespace oAuthJWT.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = "Bearer")]
         [Route("get")]
         public IActionResult Get()
         {

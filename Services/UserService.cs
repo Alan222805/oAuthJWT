@@ -43,13 +43,30 @@ namespace oAuthJWT.Services
                 await _dbContext.SaveChangesAsync();
             }
         }
+
+        //Eliminar el token del usuario
+        public async Task Patch(string googleId)
+        {
+            var user = await _dbContext.Users.FindAsync(googleId);
+
+            if(user == null)
+            {
+                throw new Exception("Usuario no encontrado");
+            }
+
+            user.CurrentToken = null;
+            user.TokenExpiration = null;
+
+            await _dbContext.SaveChangesAsync();
+        }
     }
+
 
     public interface IUserService
     {
         IEnumerable<User> GetUsers();
         Task PostUser(User user);
-
+        Task Patch(string googleId);
         Task DeleteUser(Guid userId);
     }
 }
